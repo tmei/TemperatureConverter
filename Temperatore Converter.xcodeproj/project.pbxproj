@@ -19,6 +19,8 @@
 		04F7312217FF57B900D6BD8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7310A17FF57B900D6BD8B /* UIKit.framework */; };
 		04F7312A17FF57B900D6BD8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04F7312817FF57B900D6BD8B /* InfoPlist.strings */; };
 		04F7312C17FF57B900D6BD8B /* Temperatore_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7312B17FF57B900D6BD8B /* Temperatore_ConverterTests.m */; };
+		04F7313817FF5A2100D6BD8B /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7313617FF5A2100D6BD8B /* TemperatureViewController.m */; };
+		04F7313917FF5A2100D6BD8B /* TemperatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04F7313717FF5A2100D6BD8B /* TemperatureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		04F7312717FF57B900D6BD8B /* Temperatore ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Temperatore ConverterTests-Info.plist"; sourceTree = "<group>"; };
 		04F7312917FF57B900D6BD8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04F7312B17FF57B900D6BD8B /* Temperatore_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Temperatore_ConverterTests.m; sourceTree = "<group>"; };
+		04F7313517FF5A2100D6BD8B /* TemperatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		04F7313617FF5A2100D6BD8B /* TemperatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		04F7313717FF5A2100D6BD8B /* TemperatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TemperatureViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				04F7311617FF57B900D6BD8B /* AppDelegate.m */,
 				04F7311817FF57B900D6BD8B /* Images.xcassets */,
 				04F7310D17FF57B900D6BD8B /* Supporting Files */,
+				04F7313517FF5A2100D6BD8B /* TemperatureViewController.h */,
+				04F7313617FF5A2100D6BD8B /* TemperatureViewController.m */,
+				04F7313717FF5A2100D6BD8B /* TemperatureViewController.xib */,
 			);
 			path = "Temperatore Converter";
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F7311117FF57B900D6BD8B /* InfoPlist.strings in Resources */,
+				04F7313917FF5A2100D6BD8B /* TemperatureViewController.xib in Resources */,
 				04F7311917FF57B900D6BD8B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F7313817FF5A2100D6BD8B /* TemperatureViewController.m in Sources */,
 				04F7311717FF57B900D6BD8B /* AppDelegate.m in Sources */,
 				04F7311317FF57B900D6BD8B /* main.m in Sources */,
 			);
